@@ -1,0 +1,28 @@
+.Container{
+	display: flex;
+	height: 100vh;
+  height: 100dvh;
+  min-height: 100vh;
+	background-color: lightgray;
+}
+.Navigation{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: max-content;
+}
+.NavLink{
+	text-decoration: none;
+	color: currentColor;
+	padding: 1rem .5rem;
+}
+.ActiveLink{
+	border-bottom: 1px solid lightseagreen;
+	padding: calc(1rem - .5px) .5rem calc(1rem - .5px) .5rem;
+}
+.Content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}

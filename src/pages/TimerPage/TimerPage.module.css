@@ -1,0 +1,25 @@
+.TimerPage{
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.TimerForm{
+	width: 100%;
+}
+.Input{
+	display: inline-block;
+	width: 100%;
+	padding: 1rem;
+	border-radius: 1rem;
+	outline: none;
+	border: none;
+	font-size: 20px;
+}
+
+.TimerOutput{
+	font-size: 4rem;
+	color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
